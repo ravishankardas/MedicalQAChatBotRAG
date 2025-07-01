@@ -17,29 +17,4 @@ langchain-huggingface
 langchain-chroma
 
 
-streamlit
-langchain
-langchain-community
-langchain-core
-langchain-openai
-langchain-chroma
-langchain-huggingface
-datasets
-sentence-transformers
-pydantic
-python-dotenv
-huggingface_hub
-
-# PDF and OCR handling
-pdf2image
-pillow
-pytesseract
-unstructured[local-inference,pdf]
-torch
-onnxruntime
-
-# For Amazon Textract loader (optional)
-boto3
-
-
 sqlite3 >= 3.35.0.
