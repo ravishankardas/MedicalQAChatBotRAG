@@ -40,3 +40,6 @@ onnxruntime
 
 # For Amazon Textract loader (optional)
 boto3
+
+
+sqlite3 >= 3.35.0.
