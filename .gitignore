@@ -1,0 +1,19 @@
+medical_vectordb/
+myenv
+.env
+app copy.py
+data
+test.ipynb
+__pycache__
+# Ignore Python cache files
+*.pyc
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+# Ignore virtual environment directories
+venv/
+# Ignore environment variable files
+.env
+# Ignore log files
+*.log
+# Ignore compiled Python files
+*.pyo

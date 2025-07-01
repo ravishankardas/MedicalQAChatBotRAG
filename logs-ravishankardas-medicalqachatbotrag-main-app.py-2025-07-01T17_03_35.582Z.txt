@@ -1,0 +1,124 @@
+
+[     UTC     ] Logs for medicalappchatbotrag-bnq5hoqgf2unsa2kwuw4zd.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[17:03:16] 🖥 Provisioning machine...
+[17:03:16] 🎛 Preparing system...
+[17:03:16] ⛓ Spinning up manager process...
+[17:03:15] 🚀 Starting up repository: 'medicalqachatbotrag', branch: 'main', main module: 'app.py'
+[17:03:15] 🐙 Cloning repository...
+[17:03:16] 🐙 Cloning into '/mount/src/medicalqachatbotrag'...
+
+[17:03:16] 🐙 Cloned repository!
+[17:03:16] 🐙 Pulling code changes from Github...
+[17:03:16] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+error: Couldn't parse requirement in `requirements.txt` at position 220
+  Caused by: after parsing `3.35.0`, found `.`, which is not part of a valid version
+sqlite3 >= 3.35.0.
+        ^^^^^^^^^^
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved 4 packages in 140ms
+Prepared 4 packages in 121ms
+Installed 4 packages in 12ms
+ + markdown-it-py==3.0.0
+ +[2025-07-01 17:03:17.195828]  mdurl==0.1.2
+ + pygments==2.19.2
+ + rich==14.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting langchain (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 1))
+  Downloading langchain-0.3.26-py3-none-any.whl.metadata (7.8 kB)
+Collecting langchain-community (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 2))
+  Downloading langchain_community-0.3.26-py3-none-any.whl.metadata (2.9 kB)
+Collecting langchain-openai (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 3))
+  Downloading langchain_openai-0.3.27-py3-none-any.whl.metadata (2.3 kB)
+Collecting transformers (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 4))
+  Downloading transformers-4.53.0-py3-none-any.whl.metadata (39 kB)
+Collecting sentence-transformers (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 5))
+  Downloading sentence_transformers-5.0.0-py3-none-any.whl.metadata (16 kB)
+Collecting datasets (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 6))
+  Downloading datasets-3.6.0-py3-none-any.whl.metadata (19 kB)
+Collecting torch (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 7))
+  Downloading torch-2.7.1-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (29 kB)
+Collecting chromadb (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 8))
+  Downloading chromadb-1.0.13-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.0 kB)
+Collecting rank_bm25 (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 9))
+  Downloading rank_bm25-0.2.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting langgraph (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 10))
+  Downloading langgraph-0.5.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting streamlit (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 11))
+  Downloading streamlit-1.46.1-py3-none-any.whl.metadata (9.0 kB)
+Collecting gradio (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 12))
+  Downloading gradio-5.35.0-py3-none-any.whl.metadata (16 kB)
+Collecting python-dotenv (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 13))
+  Downloading python_dotenv-1.1.1-py3-none-any.whl.metadata (24 kB)
+Collecting pydantic (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 14))
+  Downloading pydantic-2.11.7-py3-none-any.whl.metadata (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.0/68.0 kB 7.0 MB/s eta 0:00:00[2025-07-01 17:03:20.874519] 
+Collecting scikit-learn (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 15))
+  Downloading scikit_learn-1.7.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (17 kB)
+Collecting langchain-huggingface (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 16))
+  Downloading langchain_huggingface-0.3.0-py3-none-any.whl.metadata (996 bytes)
+Collecting langchain-chroma (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 17))
+  Downloading langchain_chroma-0.2.4-py3-none-any.whl.metadata (1.1 kB)
+ERROR: Ignored the following versions that require a different python version: 0.1.0 Requires-Python <3.13,>=3.8.1; 0.1.0rc1 Requires-Python <3.13,>=3.8.1; 0.1.1 Requires-Python <3.13,>=3.8.1; 0.55.2 Requires-Python <3.5
+ERROR: Could not find a version that satisfies the requirement sqlite3>=3.35.0. (from versions: none)
+ERROR: No matching distribution found for sqlite3>=3.35.0.
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 12.1 MB/s eta 0:00:00[2025-07-01 17:03:22.486490] 
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 197.4 MB/s eta 0:00:00[2025-07-01 17:03:22.499856] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 81.3 MB/s eta 0:00:00[2025-07-01 17:03:22.528927] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 3.0.0
+    Uninstalling markdown-it-py-3.0.0:
+      Successfully uninstalled markdown-it-py-3.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.0.0
+    Uninstalling rich-14.0.0:
+      Successfully uninstalled rich-14.0.0
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.0.0
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[17:03:25] ❗️ installer returned a non-zero exit code
+[17:03:25] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.

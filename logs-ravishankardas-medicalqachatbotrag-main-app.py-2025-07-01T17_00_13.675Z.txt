@@ -1,0 +1,612 @@
+
+[     UTC     ] Logs for ravishankardas-medicalqachatbotrag-app-kbohok.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[16:56:16] 🖥 Provisioning machine...
+[16:56:16] 🎛 Preparing system...
+[16:56:16] ⛓ Spinning up manager process...
+[16:56:14] 🚀 Starting up repository: 'medicalqachatbotrag', branch: 'main', main module: 'app.py'
+[16:56:14] 🐙 Cloning repository...
+[16:56:14] 🐙 Cloning into '/mount/src/medicalqachatbotrag'...
+
+[16:56:15] 🐙 Cloned repository!
+[16:56:15] 🐙 Pulling code changes from Github...
+[16:56:15] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved 245 packages in 4.22s
+Prepared 245 packages in 48.69s
+Installed 245 packages in 4.38s
+ + accelerate==1.8.1
+ + aiofiles==24.1.0
+ + aiohappyeyeballs==2.6.1
+ + aiohttp==3.12.13
+ + aiosignal==1.3.2
+ + altair==5.5.0
+ + annotated-types==0.7.0
+ + antlr4-python3-runtime==4.9.3
+ + anyio==4.9.0
+ + attrs==25.3.0
+ + audioop-lts==0.2.1
+ + backoff==2.2.1
+ + bcrypt==4.3.0
+ + beautifulsoup4==4.13.4
+ + blinker==1.9.0
+ + boto3==1.39.0
+ + botocore==1.39.0
+ + build==1.2.2.post1
+ + cachetools==6.1.0
+ + certifi==2025.6.15
+ + cffi==1.17.1
+ + chardet==5.2.0
+ + charset-normalizer==3.4.2
+ + chromadb==1.0.13
+ + click==8.2.1
+ + coloredlogs==15.0.1
+ + contourpy==1.3.2
+ + cryptography==45.0.4
+ + cycler==0.12.1
+ + dataclasses-json==0.6.7
+ + datasets==3.6.0
+ + deprecated==1.2.18
+ + dill==0.3.8
+ + distro==1.9.0
+ + durationpy==0.10
+ + effdet==0.4.1
+ + emoji==2.14.1
+ + et-xmlfile==2.0.0
+ + fastapi==0.115.14
+ + ffmpy==0.6.0
+ + filelock==3.18.0
+ + filetype==1.2.0
+ + flatbuffers==25.2.10
+ + fonttools==4.58.4
+ + frozenlist==1.7.0
+ + fsspec==2025.3.0
+ + gitdb==4.0.12
+ + gitpython==3.1.44
+ + google-api-core==1.16.0
+ + google-auth==1.6.3
+ + google-cloud-vision==1.0.0
+ + googleapis-common-protos==1.70.0
+ + gradio==5.35.0
+ + gradio-client==1.10.4
+ + greenlet==3.2.3
+ + groovy==0.1.2
+ + grpcio==1.73.1
+ + h11==0.16.0
+ + hf-xet==1.1.5
+ + html5lib==1.1
+ + httpcore==1.0.9
+ + httptools==0.6.4
+ + httpx==0.28.1
+ + httpx-sse==0.4.1
+ + huggingface-hub==0.33.1
+ + humanfriendly==10.0
+ + idna==3.10
+ + importlib-metadata==8.7.0
+ + importlib-resources==6.5.2
+ + jinja2==3.1.6
+ + jiter==0.10.0
+ + jmespath==1.0.1
+ + joblib==1.5.1
+ + jsonpatch==1.33
+ + jsonpointer==3.0.0
+ + jsonschema==4.24.0
+ + jsonschema-specifications==2025.4.1
+ + kiwisolver==1.4.8
+ + kubernetes==33.1.0
+ + langchain==0.3.26
+ + langchain-chroma==0.2.4
+ + langchain-community==0.3.26
+ + langchain-core==0.3.67
+ + langchain-huggingface==0.3.0
+ + langchain-openai==0.3.27
+ + langchain-text-splitters==0.3.8
+ + langdetect==1.0.9
+ + langgraph==0.5.0
+ + langgraph-checkpoint==2.1.0
+ + langgraph-prebuilt==0.5.2
+ + langgraph-sdk==0.1.72
+ + langsmith==0.4.4
+ + lxml==6.0.0
+ + markdown==3.8.2
+ + markdown-it-py==3.0.0
+ + markupsafe==3.0.2
+ + marshmallow==3.26.1
+ + matplotlib==3.10.3
+ + mdurl==0.1.2
+ + mmh3==5.1.0
+ + mpmath==1.3.0
+ + multidict==6.6.3
+ + multiprocess==0.70.16
+ + mypy-extensions==1.1.0
+ + narwhals==1.45.0
+ + nest-asyncio==1.6.0
+ + networkx==3.5
+ + nltk==3.9.1
+ + numpy==2.3.1
+ + nvidia-cublas-cu12==12.6.4.1
+ + nvidia-cuda-cupti-cu12==12.6.80
+ + nvidia-cuda-nvrtc-cu12==12.6.77
+ + nvidia-cuda-runtime-cu12==12.6.77
+ + nvidia-cudnn-cu12==9.5.1.17
+ + nvidia-cufft-cu12==11.3.0.4
+ + nvidia-cufile-cu12==1.11.1.6
+ + nvidia-curand-cu12==10.3.7.77
+ + nvidia-cusolver-cu12==11.7.1.2
+ + nvidia-cusparse-cu12==12.5.4.2
+ + nvidia-cusparselt-cu12==0.6.3
+ + nvidia-nccl-cu12==2.26.2
+ + nvidia-nvjitlink-cu12==12.6.85
+ + nvidia-nvtx-cu12==12.6.77
+ + oauthlib==3.3.1
+ + olefile==0.47
+ + omegaconf==2.3.0
+ + onnx==1.18.0
+ + onnxruntime==1.22.0
+ + openai==1.93.0
+ + opencv-python==4.11.0.86
+ + openpyxl==3.1.5
+ + opentelemetry-api==1.34.1
+ + opentelemetry-exporter-otlp-proto-common==1.34.1
+ + opentelemetry-exporter-otlp-proto-grpc==1.34.1
+ + opentelemetry-proto==1.34.1
+ + opentelemetry-sdk==1.34.1
+ + opentelemetry-semantic-conventions==0.55b1
+ + orjson==3.10.18
+ + ormsgpack==1.10.0
+ + overrides==7.7.0
+ + packaging==24.2
+ + pandas==2.3.0
+ + pdf2image==1.17.0
+ + pdfminer-six==20250506
+ + pi-heif==1.0.0
+ + pikepdf==9.9.0
+ + pillow==11.3.0
+ + posthog==6.0.1
+ + propcache==0.3.2
+ + protobuf==5.29.5
+ + psutil==7.0.0
+ + pyarrow==20.0.0
+ + pyasn1==0.6.1
+ + pyasn1-modules==0.4.2
+ + pybase64==1.4.1
+ + pycocotools==2.0.10
+ + pycparser==2.22
+ + pydantic==2.11.7
+ + pydantic-core==2.33.2
+ + pydantic-settings==2.10.1
+ + pydeck==0.9.1
+ + pydub==0.25.1
+ + pygments==2.19.2
+ + pypandoc==1.15
+ + pyparsing==3.2.3
+ + pypdf==5.7.0
+ + pypdfium2==4.30.1
+ + pypika==0.48.9
+ + pyproject-hooks==1.2.0
+ + pytesseract==0.3.13
+ + python-dateutil==2.9.0.post0
+ + python-docx==1.2.0
+ + python-dotenv==1.1.1
+ + python-iso639==2025.2.18
+ + python-magic==0.4.27
+ + python-multipart==0.0.20
+ + python-oxmsg==0.0.2
+ + python-pptx==1.0.2
+ + pytz==2025.2
+ + pyyaml==6.0.2
+ + rank-bm25==0.2.2
+ + rapidfuzz==3.13.0
+ + referencing==0.36.2
+ + regex==2024.11.6
+ + requests==2.32.4
+ + requests-oauthlib==2.0.0
+ + requests-toolbelt==1.0.0
+ + rich==14.0.0
+ + rpds-py==0.26.0
+ + rsa==4.9.1
+ + ruff==0.12.1
+ + s3transfer==0.13.0
+ + safehttpx==0.1.6
+ + safetensors==0.5.3
+ + scikit-learn==1.7.0
+ + scipy==1.16.0
+ + semantic-version==2.10.0
+ + sentence-transformers==5.0.0
+ + setuptools==80.9.0
+ + shellingham==1.5.4
+ + six==1.17.0
+ + smmap==5.0.2
+ + sniffio==1.3.1
+ + soupsieve==2.7
+ + sqlalchemy==2.0.41
+ + starlette==0.46.2
+ + streamlit==1.46.1
+ + sympy==1.14.0
+ + tenacity==9.1.2
+ + threadpoolctl==3.6.0
+ + tiktoken==0.9.0
+ + timm==1.0.16
+ + tokenizers==0.21.2
+ + toml==0.10.2
+ + tomlkit==0.13.3
+ + torch==2.7.1
+ + torchvision==0.22.1
+ + tornado==6.5.1
+ + tqdm==4.67.1
+ + transformers==4.53.0
+ + triton==3.3.1
+ + typer==0.16.0
+ + typing-extensions==4.14.0
+ + typing-inspect==0.9.0
+ + typing-inspection==0.4.1
+ + tzdata==2025.2
+ + unstructured==0.18.1
+ + unstructured-client==0.37.4
+ + unstructured-inference==1.0.5
+ + unstructured-pytesseract==0.3.15
+ + urllib3==2.5.0
+ + uvicorn==0.35.0
+ + uvloop==0.21.0
+ + watchdog==6.0.0
+ + watchfiles==1.1.0
+ + webencodings==0.5.1
+ + websocket-client==1.8.0
+ + websockets==15.0.1
+ + wrapt==1.17.2
+ + xlrd==2.0.2
+ + xlsxwriter==3.2.5
+ + xxhash==3.5.0
+ + yarl==1.20.1
+ + zipp==3.23.0
+ + zstandard==0.23.0
+Checking if Streamlit is installed
+Found Streamlit version 1.46.1 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Audited 1 package in 10ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[16:57:15] 🐍 Python dependencies were installed from /mount/src/medicalqachatbotrag/requirements.txt using uv.
+Check if streamlit is installed
+Streamlit is already installed
+[16:57:17] 📦 Processed dependencies!
+
+
+
+────────────────────── Traceback (most recent call last) ───────────────────────
+  /home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptru  
+  nner/exec_code.py:128 in exec_func_with_error_handling                        
+                                                                                
+  /home/adminuser/venv/lib/python3.13/site-packages/streamlit/runtime/scriptru  
+  nner/script_runner.py:669 in code_to_exec                                     
+                                                                                
+  /mount/src/medicalqachatbotrag/app.py:6 in <module>                           
+                                                                                
+     3 import random                                                            
+     4 from constants import *                                                  
+     5 import tempfile                                                          
+  ❱  6 from get_graph import create_workflow                                    
+     7                                                                          
+     8 # Page config                                                            
+     9 st.set_page_config(                                                      
+                                                                                
+  /mount/src/medicalqachatbotrag/get_graph.py:6 in <module>                     
+                                                                                
+      3 from pydantic import BaseModel                                          
+      4 import streamlit as st                                                  
+      5 from langchain_core.messages import HumanMessage, SystemMessage         
+  ❱   6 from get_medical_system import load_medical_system                      
+      7 from langchain.prompts import PromptTemplate                            
+      8 from langchain.chains import ConversationalRetrievalChain               
+      9 from langchain_community.document_loaders import AmazonTextractPDFLoad  
+                                                                                
+  /mount/src/medicalqachatbotrag/get_medical_system.py:2 in <module>            
+                                                                                
+     1 from langchain_huggingface import HuggingFaceEmbeddings                  
+  ❱  2 from langchain_chroma import Chroma                                      
+     3 from langchain.schema import Document                                    
+     4 from langchain.retrievers import EnsembleRetriever                       
+     5 from langchain_community.retrievers import BM25Retriever                 
+                                                                                
+  /home/adminuser/venv/lib/python3.13/site-packages/langchain_chroma/__init__.  
+  py:6 in <module>                                                              
+                                                                                
+     3 It contains the Chroma class for handling various tasks.                 
+     4 """                                                                      
+     5                                                                          
+  ❱  6 from langchain_chroma.vectorstores import Chroma                         
+     7                                                                          
+     8 __all__ = [                                                              
+     9 │   "Chroma",                                                            
+                                                                                
+  /home/adminuser/venv/lib/python3.13/site-packages/langchain_chroma/vectorsto  
+  res.py:20 in <module>                                                         
+                                                                                
+      17 │   Union,                                                             
+      18 )                                                                      
+      19                                                                        
+  ❱   20 import chromadb                                                        
+      21 import chromadb.config                                                 
+      22 import numpy as np                                                     
+      23 from langchain_core.documents import Document                          
+                                                                                
+  /home/adminuser/venv/lib/python3.13/site-packages/chromadb/__init__.py:95 in  
+  <module>                                                                      
+                                                                                
+     92 │   │   │   __import__("pysqlite3")                                     
+     93 │   │   │   sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")       
+     94 │   │   else:                                                           
+  ❱  95 │   │   │   raise RuntimeError(                                         
+     96 │   │   │   │   "\033[91mYour system has an unsupported version of sql  
+     97 │   │   │   │   │   requires sqlite3 >= 3.35.0.\033[0m\n"               
+     98 │   │   │   │   "\033[94mPlease visit \                                 
+────────────────────────────────────────────────────────────────────────────────
+RuntimeError: [91mYour system has an unsupported version of sqlite3. Chroma    
+requires sqlite3 >= 3.35.0.[0m
+[94mPlease visit                     
+https://docs.trychroma.com/troubleshooting#sqlite to learn how                  
+to upgrade.[0m
+[16:59:12] 🐙 Pulling code changes from Github...
+[16:59:12] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+error: Couldn't parse requirement in `requirements.txt` at position 555
+  Caused by: after parsing `3.35.0`, found `.`, which is not part of a valid version
+sqlite3 >= 3.35.0.
+        ^^^^^^^^^^
+Checking if Streamlit is installed
+Found Streamlit version 1.46.1 in the environment
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Audited [2025-07-01 16:59:13.791679] 1 package[2025-07-01 16:59:13.792286]  [2025-07-01 16:59:13.792840] in 10ms
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting langchain (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 1))
+  Downloading langchain-0.3.26-py3-none-any.whl.metadata (7.8 kB)
+Collecting langchain-community (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 2))
+  Downloading langchain_community-0.3.26-py3-none-any.whl.metadata (2.9 kB)
+Collecting langchain-openai (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 3))
+  Downloading langchain_openai-0.3.27-py3-none-any.whl.metadata (2.3 kB)
+Collecting transformers (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 4))
+  Downloading transformers-4.53.0-py3-none-any.whl.metadata (39 kB)
+Collecting sentence-transformers (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 5))
+  Downloading sentence_transformers-5.0.0-py3-none-any.whl.metadata (16 kB)
+Collecting datasets (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 6))
+  Downloading datasets-3.6.0-py3-none-any.whl.metadata (19 kB)
+Collecting torch (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 7))
+  Downloading torch-2.7.1-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (29 kB)
+Collecting chromadb (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 8))
+  Downloading chromadb-1.0.13-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.0 kB)
+Collecting rank_bm25 (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 9))
+  Downloading rank_bm25-0.2.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting langgraph (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 10))
+  Downloading langgraph-0.5.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting streamlit (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 11))
+  Downloading streamlit-1.46.1-py3-none-any.whl.metadata (9.0 kB)
+Collecting gradio (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 12))
+  Downloading gradio-5.35.0-py3-none-any.whl.metadata (16 kB)
+Collecting python-dotenv (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 13))
+  Downloading python_dotenv-1.1.1-py3-none-any.whl.metadata (24 kB)
+Collecting pydantic (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 14))
+  Downloading pydantic-2.11.7-py3-none-any.whl.metadata (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.0/68.0 kB 12.6 MB/s eta 0:00:00[2025-07-01 16:59:18.428277] 
+Collecting scikit-learn (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 15))
+  Downloading scikit_learn-1.7.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (17 kB)
+Collecting langchain-huggingface (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 16))
+  Downloading langchain_huggingface-0.3.0-py3-none-any.whl.metadata (996 bytes)
+Collecting langchain-chroma (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 17))
+  Downloading langchain_chroma-0.2.4-py3-none-any.whl.metadata (1.1 kB)
+Collecting langchain-core (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 23))
+  Downloading langchain_core-0.3.67-py3-none-any.whl.metadata (5.8 kB)
+Collecting huggingface_hub (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 31))
+  Downloading huggingface_hub-0.33.1-py3-none-any.whl.metadata (14 kB)
+Collecting pdf2image (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 34))
+  Downloading pdf2image-1.17.0-py3-none-any.whl.metadata (6.2 kB)
+Collecting pillow (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 35))
+  Downloading pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+Collecting pytesseract (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 36))
+  Downloading pytesseract-0.3.13-py3-none-any.whl.metadata (11 kB)
+Collecting onnxruntime (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 39))
+  Downloading onnxruntime-1.22.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (4.8 kB)
+Collecting boto3 (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 42))
+  Downloading boto3-1.39.0-py3-none-any.whl.metadata (6.6 kB)
+ERROR: Ignored the following versions that require a different python version: 0.1.0 Requires-Python <3.13,>=3.8.1; 0.1.0rc1 Requires-Python <3.13,>=3.8.1; 0.1.1 Requires-Python <3.13,>=3.8.1; 0.55.2 Requires-Python <3.5
+ERROR: Could not find a version that satisfies the requirement sqlite3>=3.35.0. (from versions: none)
+ERROR: No matching distribution found for sqlite3>=3.35.0.
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Found Streamlit version 1.46.1 in the environment
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 12.8 MB/s eta 0:00:00[2025-07-01 16:59:23.963075] 
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 114.3 MB/s eta 0:00:00[2025-07-01 16:59:23.988067] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 74.8 MB/s eta 0:00:00[2025-07-01 16:59:24.026729] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 3.0.0
+    Uninstalling markdown-it-py-3.0.0:
+      Successfully uninstalled markdown-it-py-3.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.0.0
+    Uninstalling rich-14.0.0:
+      Successfully uninstalled rich-14.0.0
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.0.0
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[16:59:31] ❗️ installer returned a non-zero exit code
+[16:59:48] 🖥 Provisioning machine...
+[16:59:53] 🎛 Preparing system...
+[16:59:52] 🚀 Starting up repository: 'medicalqachatbotrag', branch: 'main', main module: 'app.py'
+[16:59:52] 🐙 Cloning repository...
+[16:59:53] 🐙 Cloning into '/mount/src/medicalqachatbotrag'...
+
+[16:59:53] 🐙 Cloned repository!
+[16:59:53] 🐙 Pulling code changes from Github...
+[16:59:53] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+error: Couldn't parse requirement in `requirements.txt` at position 555
+  Caused by: after parsing `3.35.0`, found `.`, which is not part of a valid version
+sqlite3 >= 3.35.0.
+        ^^^^^^^^^^
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved 4 packages in 126ms
+Prepared [2025-07-01 16:59:54.432050] 4 packages in 118ms
+Installed 4 packages in 22ms
+ + markdown-it-py==3.0.0
+ + mdurl==0.1.2
+ + pygments==2.19.2
+ + rich==14.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[16:59:55] ⛓ Spinning up manager process...
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting langchain (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 1))
+  Downloading langchain-0.3.26-py3-none-any.whl.metadata (7.8 kB)
+Collecting langchain-community (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 2))
+  Downloading langchain_community-0.3.26-py3-none-any.whl.metadata (2.9 kB)
+Collecting langchain-openai (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 3))
+  Downloading langchain_openai-0.3.27-py3-none-any.whl.metadata (2.3 kB)
+Collecting transformers (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 4))
+  Downloading transformers-4.53.0-py3-none-any.whl.metadata (39 kB)
+Collecting sentence-transformers (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 5))
+  Downloading sentence_transformers-5.0.0-py3-none-any.whl.metadata (16 kB)
+Collecting datasets (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 6))
+  Downloading datasets-3.6.0-py3-none-any.whl.metadata (19 kB)
+Collecting torch (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 7))
+  Downloading torch-2.7.1-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (29 kB)
+Collecting chromadb (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 8))
+  Downloading chromadb-1.0.13-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.0 kB)
+Collecting rank_bm25 (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 9))
+  Downloading rank_bm25-0.2.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting langgraph (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 10))
+  Downloading langgraph-0.5.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting streamlit (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 11))
+  Downloading streamlit-1.46.1-py3-none-any.whl.metadata (9.0 kB)
+Collecting gradio (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 12))
+  Downloading gradio-5.35.0-py3-none-any.whl.metadata (16 kB)
+Collecting python-dotenv (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 13))
+  Downloading python_dotenv-1.1.1-py3-none-any.whl.metadata (24 kB)
+Collecting pydantic (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 14))
+  Downloading pydantic-2.11.7-py3-none-any.whl.metadata (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.0/68.0 kB 15.3 MB/s eta 0:00:00[2025-07-01 16:59:58.003595] 
+Collecting scikit-learn (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 15))
+  Downloading scikit_learn-1.7.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (17 kB)
+Collecting langchain-huggingface (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 16))
+  Downloading langchain_huggingface-0.3.0-py3-none-any.whl.metadata (996 bytes)
+Collecting langchain-chroma (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 17))
+  Downloading langchain_chroma-0.2.4-py3-none-any.whl.metadata (1.1 kB)
+Collecting langchain-core (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 23))
+  Downloading langchain_core-0.3.67-py3-none-any.whl.metadata (5.8 kB)
+Collecting huggingface_hub (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 31))
+  Downloading huggingface_hub-0.33.1-py3-none-any.whl.metadata (14 kB)
+Collecting pdf2image (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 34))
+  Downloading pdf2image-1.17.0-py3-none-any.whl.metadata (6.2 kB)
+Collecting pillow (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 35))
+  Downloading pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+Collecting pytesseract (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 36))
+  Downloading pytesseract-0.3.13-py3-none-any.whl.metadata (11 kB)
+Collecting onnxruntime (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 39))
+  Downloading onnxruntime-1.22.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (4.8 kB)
+Collecting boto3 (from -r /mount/src/medicalqachatbotrag/requirements.txt (line 42))
+  Downloading boto3-1.39.0-py3-none-any.whl.metadata (6.6 kB)
+ERROR: Ignored the following versions that require a different python version: 0.1.0 Requires-Python <3.13,>=3.8.1; 0.1.0rc1 Requires-Python <3.13,>=3.8.1; 0.1.1 Requires-Python <3.13,>=3.8.1; 0.55.2 Requires-Python <3.5
+ERROR: Could not find a version that satisfies the requirement sqlite3>=3.35.0. (from versions: none)
+ERROR: No matching distribution found for sqlite3>=3.35.0.
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 15.1 MB/s eta 0:00:00[2025-07-01 17:00:01.680341] 
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 201.4 MB/s eta 0:00:00[2025-07-01 17:00:01.691495] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 87.4 MB/s eta 0:00:00[2025-07-01 17:00:01.716688] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 3.0.0
+    Uninstalling markdown-it-py-3.0.0:
+      Successfully uninstalled markdown-it-py-3.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.0.0
+    Uninstalling rich-14.0.0:
+      Successfully uninstalled rich-14.0.0
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.0.0
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[17:00:03] ❗️ installer returned a non-zero exit code
+[17:00:03] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
