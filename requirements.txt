@@ -17,4 +17,4 @@ langchain-huggingface
 langchain-chroma
 
 
-sqlite3 >= 3.35.0.
+sqlite3 >= 3.35.0
