@@ -1,10 +1,8 @@
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_chroma import Chroma
+from langchain_community.vectorstores import FAISS  # Replace Chroma import
 from langchain.schema import Document
 from langchain.retrievers import EnsembleRetriever
 from langchain_community.retrievers import BM25Retriever
-from langchain_openai import ChatOpenAI
-
 
 from sentence_transformers import CrossEncoder
 from dotenv import load_dotenv
@@ -40,13 +38,16 @@ def load_medical_system():
         embeddings = HuggingFaceEmbeddings(model_name="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract")
         
         # Try to load existing vectorstore, create if doesn't exist
-        try:
-            vectorstore = Chroma(persist_directory="medical_vectordb", embedding_function=embeddings)
-            st.success("✅ Loaded existing vectorstore")
-        except:
-            st.info("📦 Creating new vectorstore...")
-            vectorstore = Chroma.from_documents(documents, embeddings, persist_directory="medical_vectordb")
-            st.success("✅ Created new vectorstore")
+        vectorstore = FAISS.from_documents(documents, embeddings)
+        st.success("✅ Loaded existing vectorstore")
+        
+        # try:
+        #     vectorstore = FAISS.from_documents(documents, embeddings)
+        #     st.success("✅ Loaded existing vectorstore")
+        # except:
+        #     st.info("📦 Creating new vectorstore...")
+        #     vectorstore = Chroma.from_documents(documents, embeddings, persist_directory="medical_vectordb")
+        #     st.success("✅ Created new vectorstore")
         
         # Create retrievers
         bm25_retriever = BM25Retriever.from_documents(documents)
